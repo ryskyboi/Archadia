@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "archadia"
+version = "0.1.0"
+description = ""
+authors = ["rysky-boi <dave@rysk.finance>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.27.1"
+pandas = "^2.2.3"
+pandas-stubs = "^2.2.3.241126"
+tqdm = "^4.67.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
